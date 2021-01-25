@@ -1,0 +1,6 @@
+{"name":"John","password":"hello"}
+{"name":"Svitlana","password":"111111111"}
+{"name":"Luda","password":"12345"}
+{"name":"Stasyuk Andrii","password":"hello"}
+{"name":"Hello","password":"Node.js"}
+{"name":"K","password":"kkk"}

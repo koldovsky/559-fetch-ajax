@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch/Ajax</title>
+</head>
+<body>
+    <div class="page-loaded"></div>
+    <h1>Fetch/Ajax</h1>
+    <section>
+        <h2>HTML Fetch/Ajax Sample</h2>
+        <div class="html-container"></div>
+        <button class="fetch-html">Fetch HTML</button>
+        <button class="ajax-html">AJAX HTML</button>
+    </section>
+    <section>
+        <h2>JSON Fetch/Ajax Sample</h2>
+        <div>Client name: <span class="client-name"></span></div>
+        <div>Account balance: <span class="account-balance"></span></div>
+        <button class="fetch-json">Fetch JSON</button>
+    </section>
+    <section>
+        <h2>Exchange rate</h2>
+        <label>
+            Currency from: <input type="text" class="currency-from" value="UAH">
+        </label>
+        <br>
+        <label>
+            Currency from: <input type="text" class="currency-to" value="USD">
+        </label>
+        <br>
+        <label>
+            Exchange rate: <input type="text" readonly class="rate">
+        </label>
+        <br>
+        <button class="get-rate">
+            Get rate    
+        </button>
+    </section>
+    <section>
+        <h2>Form Sample</h1>
+        <form class="login-form">
+            <label>
+                Name: <input type="text" name="name">
+            </label>
+            <br>
+            <label>
+                Password: <input type="password" name="password">
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+    </section>
+    <script src="js/index.js"></script>
+    <script src="js/exchange-rate.js"></script>
+    <script src="js/login-form.js"></script>
+</body>
+</html>
